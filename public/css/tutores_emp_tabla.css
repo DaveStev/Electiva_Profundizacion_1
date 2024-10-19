@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-image: url('../img/nubes.jpg'); /* Fondo de nubes */
+    background-size: cover; /* Ajusta el fondo para que cubra toda la pantalla */
+}
+
+.header {
+    background-color: #007bff; /* Color de fondo azul para el header */
+    color: white; /* Texto en blanco */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrar texto */
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center; /* Centrar el botón dentro del contenedor */
+    margin-bottom: 20px; /* Espacio en la parte inferior */
+}
+
+.container {
+    max-width: 1200px; /* Ancho máximo de la contenedor */
+    margin: auto; /* Centrar el contenedor */
+    padding: 20px; /* Espaciado interno */
+}
+
+.table-box {
+    padding: 20px; /* Espaciado interno */
+    background-color: #f9f9f9; /* Color de fondo claro */
+    border: 2px solid #ccc; /* Bordes grises */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-top: 20px; /* Espacio en la parte superior */
+}
+
+.btn-success {
+    font-family: 'Barlow Condensed', sans-serif; /* Fuente personalizada */
+    font-size: 18px; /* Tamaño de fuente */
+    padding: 10px 20px; /* Espaciado interno */
+    background-color: #28a745; /* Color de fondo verde */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    color: white; /* Texto en blanco */
+    cursor: pointer; /* Cambiar cursor a mano */
+    transition: background-color 0.3s ease; /* Transición suave para el color de fondo */
+}
+
+.btn-success:hover {
+    background-color: #218838; /* Color de fondo verde más oscuro al pasar el mouse */
+}
+
+.table {
+    width: 100%; /* Ancho total */
+    border-collapse: collapse; /* Colapsar bordes */
+}
+
+.table thead th {
+    background-color: #007bff; /* Color de fondo azul para el encabezado */
+    color: white; /* Texto en blanco */
+    font-family: 'Barlow Condensed', sans-serif; /* Fuente personalizada */
+    font-size: 18px; /* Tamaño de fuente */
+    text-align: center; /* Centrar texto */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ddd; /* Bordes grises */
+}
+
+.table tbody td {
+    font-family: 'Barlow Condensed', sans-serif; /* Fuente personalizada */
+    font-size: 16px; /* Tamaño de fuente */
+    text-align: center; /* Centrar texto */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ddd; /* Bordes grises */
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Fondo claro para filas pares */
+}
+
+.table tbody tr:hover {
+    background-color: #e9ecef; /* Fondo claro al pasar el mouse */
+}

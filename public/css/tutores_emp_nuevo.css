@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0; 
+    background-image: url("../img/fondo_nubes.jpg"); /* Fondo de nubes */
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+.table-box {
+    border: 2px solid #007bff; /* Bordes de color azul */
+    padding: 20px; /* Espaciado interno */
+    background: rgb(255, 255, 255); /* Fondo blanco */
+    width: 80%; /* Ancho del contenedor */
+    max-width: 800px; /* Ancho máximo */
+    margin: 20px; /* Margen */
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+h2 {
+    text-align: center; /* Centrar texto */
+    font-size: 24px; /* Tamaño de fuente */
+    margin-bottom: 20px; /* Espaciado inferior */
+    color: #007bff; /* Color de texto azul */
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Colocar elementos en columna */
+    gap: 20px; /* Espacio entre elementos */
+}
+
+label {
+    font-weight: bold; /* Negrita */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+    padding: 15px; /* Espaciado interno */
+    border: 2px solid #007bff; /* Bordes de color azul */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 18px; /* Tamaño de fuente */
+    width: 100%; /* Ancho completo */
+    box-sizing: border-box; /* Incluir padding y border en el ancho total */
+    transition: border-color 0.3s; /* Transición suave para el borde */
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus {
+    border-color: #0056b3; /* Color de borde más oscuro al hacer foco */
+}
+
+button {
+    padding: 15px; /* Espaciado interno */
+    background-color: #007bff; /* Color de fondo azul */
+    color: white; /* Texto en blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-left: auto; /* Alinear a la izquierda */
+    margin-right: auto; /* Alinear a la derecha */
+    font-size: 18px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambiar cursor a mano */
+    transition: background-color 0.3s; /* Transición suave para el color de fondo */
+}
+
+button:hover {
+    background-color: #0056b3; /* Color de fondo azul más oscuro al pasar el mouse */
+}

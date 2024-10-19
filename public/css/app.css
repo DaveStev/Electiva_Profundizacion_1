@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f8f9fa; /* Fondo suave */
+}
+
+nav {
+    width: 220px; /* Ancho fijo para el menú */
+    background-color: #007bff; /* Color de fondo azul */
+    position: fixed; /* Fija el menú en el lado izquierdo */
+    height: 100%; /* Ocupa toda la altura de la ventana */
+    padding-top: 20px; /* Espaciado superior */
+}
+
+nav ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el padding */
+}
+
+nav ul li {
+    margin: 10px 0; /* Espaciado entre los botones */
+}
+
+nav ul li a {
+    display: block; /* Hace que el área clickeable ocupe todo el espacio del elemento li */
+    padding: 15px; /* Espaciado interno */
+    color: black; /* Color de texto negro */
+    text-decoration: none; /* Elimina el subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: white; /* Fondo blanco */
+    transition: background-color 0.3s; /* Transición suave al cambiar el fondo */
+    width: 180px; /* Cambiado a 100% para ocupar todo el ancho disponible */
+}
+
+nav ul li a:hover {
+    background-color: #e9ecef; /* Fondo claro al pasar el mouse */
+}
+
+.container {
+    margin-left: 220px; /* Deja espacio para el menú en el lado izquierdo */
+    padding: 20px; /* Espaciado interno */
+}
+

@@ -31,3 +31,14 @@ Route::post('/tutores/guardar', [TutoresAcademicosController::class, 'guardar_nu
 Route::get('/tutores/editar/{id}', [TutoresAcademicosController::class, 'editar'])->name('tutor.editar');
 Route::post('/tutores/actualizar/{id}', [TutoresAcademicosController::class, 'guardar_editar'])->name('tutor.actualizar');
 Route::get('/tutores/borrar/{id}', [TutoresAcademicosController::class, 'borrar'])->name('tutor.borrar');
+
+// Rutas para tutores Empresariales
+// Rutas para tutores Empresariales
+use App\Http\Controllers\TutoresEmpresarialesController;
+
+Route::get('/tutores-empresariales/tabla', [TutoresEmpresarialesController::class, 'index'])->name('tutoresEmp.index');
+Route::get('/tutores-empresariales/nuevo', [TutoresEmpresarialesController::class, 'nuevo'])->name('tutoresEmp.nuevo');
+Route::post('/tutores-empresariales/guardar', [TutoresEmpresarialesController::class, 'guardar_nuevo'])->name('tutoresEmp.guardar');
+Route::get('/tutores-empresariales/editar/{id}', [TutoresEmpresarialesController::class, 'editar'])->name('tutoresEmp.editar');
+Route::put('/tutores-empresariales/actualizar/{id}', [TutoresEmpresarialesController::class, 'guardar_editar'])->name('tutoresEmp.actualizar');
+Route::get('/tutores-empresariales/borrar/{id}', [TutoresEmpresarialesController::class, 'borrar'])->name('tutoresEmp.borrar');
