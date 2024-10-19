@@ -32,7 +32,7 @@ Route::get('/tutores/editar/{id}', [TutoresAcademicosController::class, 'editar'
 Route::post('/tutores/actualizar/{id}', [TutoresAcademicosController::class, 'guardar_editar'])->name('tutor.actualizar');
 Route::get('/tutores/borrar/{id}', [TutoresAcademicosController::class, 'borrar'])->name('tutor.borrar');
 
-// Rutas para tutores Empresariales
+
 // Rutas para tutores Empresariales
 use App\Http\Controllers\TutoresEmpresarialesController;
 

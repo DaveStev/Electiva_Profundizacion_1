@@ -79,3 +79,27 @@ body {
 .table tbody tr:hover {
     background-color: #e9ecef; /* Fondo claro al pasar el mouse */
 }
+
+.table-box {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Separador entre filas */
+}
+
+.row:nth-child(even) {
+    background-color: #f2f2f2; /* Fondo claro para filas pares */
+}
+
+.row:last-child {
+    border-bottom: none; /* Sin borde en la última fila */
+}
