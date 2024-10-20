@@ -1,17 +1,20 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estudiantes</title>
-    <link rel="stylesheet" href="{{ asset('css/EmpresasTabla.css') }}">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-</head>
-<body>
-    <div class="container-fluid min-vh-100 d-flex flex-column align-items-center" style="background-image: url('../img/nubes.jpg'); background-size: cover;">
+@extends('layouts.app')
+
+<link rel="stylesheet" href="{{ asset('css/Empresas_Tabla.css') }}">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background-image: url('{{ asset('img/nubes.jpg') }}'); 
+        background-size: cover; 
+    }
+</style>
+
+@section('content')
+    <div class="container-fluid min-vh-100 d-flex flex-column align-items-center">
         <div class="table-box">
-            <h2 class="table-title">Estudiantes</h2>
-            <div class="d-flex justify-content-start mb-3">
+            <h2 class="table-title" style="text-align: center; font-size: 30px;">Estudiantes</h2>
+            <div class="d-flex justify-content-start mb-3" style="text-align: center; margin-bottom: 20px;">
                 <a href="{{ route('estudiante.nuevo') }}" class="btn btn-success me-2">Registrar Nuevo Estudiante</a>
             </div>
 
@@ -19,7 +22,7 @@
                 <div class="alert alert-success">{{ session('success') }}</div>
             @endif
 
-            <table class="table table-striped">
+            <table class="table table-striped" style="margin-top: 10px;">
                 <thead>
                     <tr>
                         <th>ID</th>
@@ -44,5 +47,8 @@
             </table>
         </div>
     </div>
-</body>
-</html>
+@endsection
+
+@section('scripts')
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+@endsection

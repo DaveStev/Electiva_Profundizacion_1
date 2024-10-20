@@ -5,32 +5,34 @@ body {
     background-size: cover; /* Ajusta el fondo para que cubra toda la pantalla */
 }
 
-.header {
-    background-color: #007bff; /* Color de fondo azul para el header */
-    color: white; /* Texto en blanco */
-    padding: 20px; /* Espaciado interno */
-    text-align: center; /* Centrar texto */
-}
-
-.btn-container {
-    display: flex;
-    justify-content: center; /* Centrar el botón dentro del contenedor */
-    margin-bottom: 20px; /* Espacio en la parte inferior */
-}
-
 .container {
-    max-width: 1200px; /* Ancho máximo de la contenedor */
+    max-width: 1300px; /* Ancho máximo del contenedor */
     margin: auto; /* Centrar el contenedor */
-    padding: 20px; /* Espaciado interno */
+    padding: 30px; /* Espaciado interno */
+    
 }
 
 .table-box {
+    
     padding: 20px; /* Espaciado interno */
     background-color: #f9f9f9; /* Color de fondo claro */
     border: 2px solid #ccc; /* Bordes grises */
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
     margin-top: 20px; /* Espacio en la parte superior */
+    margin-left: -200px;
+}
+
+.header {
+    color: black; /* Texto en negro */
+    text-align: center; /* Centrar texto */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center; /* Centrar el botón dentro del contenedor */
+    margin-bottom: 20px; /* Espacio en la parte inferior */
 }
 
 .btn-success {
@@ -47,6 +49,38 @@ body {
 
 .btn-success:hover {
     background-color: #218838; /* Color de fondo verde más oscuro al pasar el mouse */
+}
+
+.btn-warning {
+    font-family: 'Barlow Condensed', sans-serif; /* Fuente personalizada */
+    font-size: 18px; /* Tamaño de fuente */
+    padding: 10px 20px; /* Espaciado interno */
+    background-color: #d4a017; /* Color amarillo mostaza */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    color: white; /* Texto en blanco */
+    cursor: pointer; /* Cambiar cursor a mano */
+    transition: background-color 0.3s ease; /* Transición suave para el color de fondo */
+}
+
+.btn-warning:hover {
+    background-color: #c69313; /* Más oscuro en hover */
+}
+
+.btn-danger {
+    font-family: 'Barlow Condensed', sans-serif; /* Fuente personalizada */
+    font-size: 18px; /* Tamaño de fuente */
+    padding: 10px 20px; /* Espaciado interno */
+    background-color: #dc3545; /* Color rojo */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    color: white; /* Texto en blanco */
+    cursor: pointer; /* Cambiar cursor a mano */
+    transition: background-color 0.3s ease; /* Transición suave para el color de fondo */
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* Más oscuro en hover */
 }
 
 .table {
@@ -78,28 +112,4 @@ body {
 
 .table tbody tr:hover {
     background-color: #e9ecef; /* Fondo claro al pasar el mouse */
-}
-
-.table-box {
-    padding: 20px;
-    background-color: #f9f9f9;
-    border: 2px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
-}
-
-.row {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    border-bottom: 1px solid #ddd; /* Separador entre filas */
-}
-
-.row:nth-child(even) {
-    background-color: #f2f2f2; /* Fondo claro para filas pares */
-}
-
-.row:last-child {
-    border-bottom: none; /* Sin borde en la última fila */
 }

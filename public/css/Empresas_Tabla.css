@@ -9,7 +9,7 @@
     border: 2px solid #ccc;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .btn-success {
@@ -26,8 +26,9 @@
 
 .btn-container {
     display: flex;
+    justify-content: center; /* Centra horizontalmente */
     margin-bottom: 20px;
-    margin-left: 10px;
+   
 }
 
 .btn-success:hover {
@@ -36,6 +37,7 @@
 
 .table {
     width: 100%;
+    margin-top: 40px;
     border-collapse: collapse;
 }
 
@@ -63,4 +65,38 @@
 
 .table tbody tr:hover {
     background-color: #e9ecef;
+}
+
+/* Botón Editar - Color amarillo mostaza */
+.btn-warning {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #d4a017; /* Color amarillo mostaza */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-warning:hover {
+    background-color: #c69313; /* Más oscuro en hover */
+}
+
+/* Botón Borrar - Color rojo */
+.btn-danger {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #dc3545; /* Color rojo */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* Más oscuro en hover */
 }
