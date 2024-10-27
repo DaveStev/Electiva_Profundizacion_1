@@ -32,7 +32,6 @@ Route::get('/tutores/editar/{id}', [TutoresAcademicosController::class, 'editar'
 Route::post('/tutores/actualizar/{id}', [TutoresAcademicosController::class, 'guardar_editar'])->name('tutor.actualizar');
 Route::get('/tutores/borrar/{id}', [TutoresAcademicosController::class, 'borrar'])->name('tutor.borrar');
 
-
 // Rutas para tutores Empresariales
 use App\Http\Controllers\TutoresEmpresarialesController;
 
@@ -42,3 +41,23 @@ Route::post('/tutores-empresariales/guardar', [TutoresEmpresarialesController::c
 Route::get('/tutores-empresariales/editar/{id}', [TutoresEmpresarialesController::class, 'editar'])->name('tutoresEmp.editar');
 Route::put('/tutores-empresariales/actualizar/{id}', [TutoresEmpresarialesController::class, 'guardar_editar'])->name('tutoresEmp.actualizar');
 Route::get('/tutores-empresariales/borrar/{id}', [TutoresEmpresarialesController::class, 'borrar'])->name('tutoresEmp.borrar');
+
+// Rutas para Ofertas
+use App\Http\Controllers\OfertaController;
+
+// Rutas para Ofertas
+Route::get('/ofertas/tabla', [OfertaController::class, 'index'])->name('oferta.index');
+Route::get('/ofertas/nuevo', [OfertaController::class, 'nuevo'])->name('oferta.nuevo');
+Route::post('/ofertas/guardar', [OfertaController::class, 'guardar_nuevo'])->name('oferta.guardar');
+Route::get('/ofertas/editar/{id}', [OfertaController::class, 'editar'])->name('oferta.editar');
+Route::post('/ofertas/actualizar/{id}', [OfertaController::class, 'actualizar'])->name('oferta.actualizar');
+Route::get('/ofertas/borrar/{id}', [OfertaController::class, 'borrar'])->name('oferta.borrar');
+
+
+// Rutas para Postulaciones
+use App\Http\Controllers\PostulacionController;
+
+Route::get('/postulacion/crear/{id_oferta}', [PostulacionController::class, 'crear'])->name('postulacion.postular');
+Route::post('/postulacion/guardar', [PostulacionController::class, 'guardar'])->name('postulacion.guardar');
+Route::get('/postulaciones', [PostulacionController::class, 'index'])->name('postulaciones.index');
+Route::delete('/postulaciones/{id}', [PostulacionController::class, 'eliminar'])->name('postulaciones.eliminar');

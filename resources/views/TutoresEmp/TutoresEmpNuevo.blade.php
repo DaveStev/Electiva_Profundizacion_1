@@ -12,76 +12,76 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            background-image: url('../img/nubes.jpg'); /* Fondo de nubes */
-            background-size: cover; /* Ajusta el fondo para que cubra toda la pantalla */
+            background-image: url('../img/nubes.jpg'); 
+            background-size: cover; 
         }
 
         .header {
-            color: black; /* Texto en negro */
-            padding: 20px; /* Espaciado interno */
-            text-align: center; /* Centrar texto */
+            color: black; 
+            padding: 20px; 
+            text-align: center; 
         }
 
         .container {
-            max-width: 800px; /* Ancho máximo del contenedor */
-            margin: auto; /* Centrar el contenedor */
-            padding: 20px; /* Espaciado interno */
+            max-width: 800px;
+            margin: auto; 
+            padding: 20px; 
         }
 
         .table-box {
-            padding: 20px; /* Espaciado interno */
-            background-color: #f9f9f9; /* Color de fondo claro */
-            border: 2px solid #ccc; /* Bordes grises */
-            border-radius: 10px; /* Bordes redondeados */
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
-            margin-top: 20px; /* Espacio en la parte superior */
+            padding: 20px; 
+            background-color: #f9f9f9; 
+            border: 2px solid #ccc; 
+            border-radius: 10px; 
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+            margin-top: 20px; 
         }
 
         label {
-            display: block; /* Hacer que las etiquetas ocupen toda la línea */
-            margin-bottom: 5px; /* Espacio inferior */
+            display: block; 
+            margin-bottom: 5px; 
         }
 
         input, select {
-            width: 100%; /* Ancho completo */
-            padding: 10px; /* Espaciado interno */
-            margin-bottom: 15px; /* Espacio entre campos */
-            border: 1px solid #ddd; /* Bordes grises */
-            border-radius: 5px; /* Bordes redondeados */
+            width: 100%; 
+            padding: 10px; 
+            margin-bottom: 15px; 
+            border: 1px solid #ddd; 
+            border-radius: 5px; 
         }
 
         button, .btn-cancelar {
-            font-family: 'Barlow Condensed', sans-serif; /* Fuente personalizada */
-            font-size: 18px; /* Tamaño de fuente */
-            padding: 10px 20px; /* Espaciado interno */
-            border: none; /* Sin borde */
-            border-radius: 5px; /* Bordes redondeados */
-            cursor: pointer; /* Cambiar cursor a mano */
-            transition: background-color 0.3s ease; /* Transición suave para el color de fondo */
-            margin: 5px; /* Espacio entre botones */
+            font-family: 'Barlow Condensed', sans-serif; 
+            font-size: 18px; 
+            padding: 10px 20px;
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer; 
+            transition: background-color 0.3s ease; 
+            margin: 5px; 
         }
 
         .btn-guardar {
-            background-color: #28a745; /* Color de fondo verde */
-            color: white; /* Texto en blanco */
+            background-color: #28a745; 
+            color: white; 
         }
 
         .btn-guardar:hover {
-            background-color: #218838; /* Color de fondo verde más oscuro al pasar el mouse */
+            background-color: #218838;
         }
 
         .btn-cancelar {
-            background-color: #dc3545; /* Color de fondo rojo */
-            color: white; /* Texto en blanco */
+            background-color: #dc3545;
+            color: white; 
         }
 
         .btn-cancelar:hover {
-            background-color: #c82333; /* Color de fondo rojo más oscuro al pasar el mouse */
+            background-color: #c82333; 
         }
 
         .button-container {
-            text-align: center; /* Centrar los botones */
-            margin-top: 20px; /* Espacio en la parte superior */
+            text-align: center; 
+            margin-top: 20px; 
         }
     </style>
 </head>

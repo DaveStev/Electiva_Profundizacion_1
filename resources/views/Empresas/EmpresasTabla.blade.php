@@ -13,7 +13,7 @@
 @section('content')
     <div class="table-box" style="margin-top: 30px;">
         <h2 class="table-title" style="text-align: center; font-size: 30px;">Empresas</h2> 
-        <div class="btn-container" style="text-align: center; margin-bottom: 20px;  margin-left: 450px;">
+        <div class="btn-container" style="text-align: center; margin-bottom: 20px;  margin-left: 20px;">
             <a href="{{ route('empresa.nuevo') }}" class="btn btn-success">
                 <i class="fas fa-building"></i> Registrar Nueva Empresa
             </a>

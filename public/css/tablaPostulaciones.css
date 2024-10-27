@@ -1,23 +1,20 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: #f8f9fa; 
-}
 
 h1 {
     text-align: center; 
-    color: #000;
+    color: #000; 
     font-size: 1.8em; 
     margin-bottom: 20px; 
 }
 
-/* Estilo de la tabla */
+
 .table {
-    width: 100%; 
-    margin: 20px auto; 
-    border-collapse: collapse; 
-    background-color: #ffffff; 
-    border-radius: 10px; 
+    max-width: 800px; 
+    margin: 50px auto; 
+    padding: 25px; 
+    background-color: #fdfdfd; 
+    border: 1px solid #e0e0e0; 
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -46,7 +43,7 @@ h1 {
     border: none; 
     padding: 5px 10px; 
     border-radius: 5px; 
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 .btn-danger:hover {

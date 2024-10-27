@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\TutorEmpresarial;
-use App\Models\Empresas; // Asegúrate de que se llama "Empresa"
+use App\Models\Empresas; 
 use Illuminate\Http\Request;
 
 class TutoresEmpresarialesController extends Controller
@@ -16,14 +16,14 @@ class TutoresEmpresarialesController extends Controller
 
     public function nuevo()
     {
-        $empresas = Empresas::all(); // Cambiado a Empresa
+        $empresas = Empresas::all(); 
         return view('TutoresEmp.TutoresEmpNuevo', compact('empresas'));
     }
 
     public function guardar_nuevo(Request $request)
     {
         $request->validate([
-            'id_empresa' => 'required|exists:empresa,id', // Asegúrate de que se llama "empresa"
+            'id_empresa' => 'required|exists:empresa,id', 
             'nombres' => 'required|string|max:255',
             'apellidos' => 'required|string|max:255',
             'cargo' => 'required|string|max:255',
@@ -47,7 +47,7 @@ class TutoresEmpresarialesController extends Controller
         $tutor = TutorEmpresarial::findOrFail($id);
 
         $request->validate([
-            'id_empresa' => 'required|exists:empresa,id', // Asegúrate de que se llama "empresa"
+            'id_empresa' => 'required|exists:empresa,id', 
             'nombres' => 'required|string|max:255',
             'apellidos' => 'required|string|max:255',
             'cargo' => 'required|string|max:255',

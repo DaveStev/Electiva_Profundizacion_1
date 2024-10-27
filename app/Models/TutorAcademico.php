@@ -19,6 +19,6 @@ class TutorAcademico extends Model
         'telefono',
     ];
 
-    // Desactiva los timestamps
+    
     public $timestamps = false; 
 }

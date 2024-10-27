@@ -1,0 +1,109 @@
+
+form {
+    max-width: 600px;
+    margin-left: 20px;
+    padding: 25px;
+    background-color: #fdfdfd;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+h1 {
+    text-align: center;
+    color: #000; 
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 1rem;
+}
+
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+
+textarea {
+    height: 80px;
+    resize: vertical;
+}
+
+
+button[type="submit"] {
+    width: 225px;
+    margin-left: 200px;
+    padding: 12px;
+    background-color: #28a745; 
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838; 
+}
+
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #28a745;
+    outline: none;
+}
+
+
+input[type="date"] {
+    color: #555;
+}
+
+
+select {
+    background-color: #fff;
+    color: #333;
+}
+
+
+.btn-danger {
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    margin-left: 200px;
+    padding: 12px;
+    background-color: #dc3545; 
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-danger:hover {
+    background-color: #c82333; 
+}
