@@ -55,7 +55,8 @@
                         <td>{{ $oferta->fecha_inicio }}</td>
                         <td>{{ $oferta->fecha_fin }}</td>
                         <td>{{ $oferta->habilidades }}</td>
-                        <td>{{ $oferta->empresa->nombre }}</td>
+                        <td>{{ $oferta->empresa ? $oferta->empresa->nombre : 'No asociada' }}</td>
+
                         <td>
                             <a href="{{ route('oferta.editar', $oferta->id) }}" class="btn-warning">Editar</a>
                             <br><br><br>
