@@ -2,16 +2,17 @@
 
 @section('title', 'Tabla de Postulaciones')
 
-<link rel="stylesheet" href="{{ asset('css/tablaPostulaciones.css') }}">
+<link rel="stylesheet" href="{{ asset('css/tablaPostulaciones_.css') }}">
 @section('content')
 
 <style>
     body {
         font-family: Arial, sans-serif;
         margin: 0;
-        background-image: url('{{ asset('img/nubes.jpg') }}'); 
+        background-image: url('{{ asset('img/Fondo2.jpg') }}'); 
         background-size: cover; 
     }
+    
 </style>
 
 <table class="table">

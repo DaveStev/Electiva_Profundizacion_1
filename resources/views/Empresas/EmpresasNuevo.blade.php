@@ -9,9 +9,9 @@
     <script src="{{ asset('js/Nit.js') }}" defer></script> <!-- Llamada al archivo Nit.js -->
 </head>
 <body>
-    <div class="container-fluid min-vh-100 d-flex justify-content-center align-items-center" style="background-image: url('../img/nubes.jpg'); background-size: cover;">
+    <div class="container-fluid min-vh-100 d-flex justify-content-center align-items-center" style="background-image: url('../img/Fondo2.jpg'); background-size: cover;">
         <div class="table-box bg-white p-4 rounded shadow" style="width: 100%; max-width: 600px;">
-            <h2 class="text-center">Registrar Empresa</h2>
+            <h2 class="text-center" style="font-weight: bold;">Registrar Empresa</h2>
 
             <form action="{{ route('guardar_nuevo')}}" method="POST">
                 @csrf

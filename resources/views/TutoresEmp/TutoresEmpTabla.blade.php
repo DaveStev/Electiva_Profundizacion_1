@@ -1,7 +1,14 @@
 @extends('layouts.app')
 
-<link rel="stylesheet" href="{{ asset('css/TutoresEmpTabla_.css') }}">
-
+<link rel="stylesheet" href="{{ asset('css/TutoresEmpTabla.css') }}">
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-image: url("../img/Fondo2.jpg");
+    background-size: cover; 
+}
+</style>
 @section('content')
 
 <!DOCTYPE html>

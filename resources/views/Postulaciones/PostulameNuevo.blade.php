@@ -1,4 +1,4 @@
-@extends('layouts.app')
+
 
 @section('title', 'Postularse a Oferta')
 
@@ -7,11 +7,11 @@
     body {
         font-family: Arial, sans-serif;
         margin: 0;
-        background-image: url('{{ asset('img/nubes.jpg') }}'); 
+        background-image: url('{{ asset('img/Fondo2.jpg') }}'); 
         background-size: cover; 
     }
 </style>
-<link rel="stylesheet" href="{{ asset('css/postularOferta.css') }}">
+<link rel="stylesheet" href="{{ asset('css/postularOfertaEst.css') }}">
 
 <div class="container">
     <form action="{{ route('postulacion.guardar') }}" method="POST">
@@ -44,4 +44,3 @@
         <a href="{{ route('oferta.index') }}" class="btn btn-danger">Cancelar</a> 
     </form>
 </div>
-@endsection

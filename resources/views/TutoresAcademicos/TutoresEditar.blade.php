@@ -4,9 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Editar Tutor Académico</title>
-    <link rel="stylesheet" href="{{ asset('css/EmpresasEditar.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/TutoresAcademicoEditar.css') }}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 </head>
+<style>
+    .container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;  /* Ancho reducido */
+    width: 100%;
+    margin: 20px;
+}
+</style>
 <body>
     <div class="container">
         <h2 class="mt-5">Editar Tutor Académico</h2>

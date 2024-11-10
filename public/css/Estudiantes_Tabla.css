@@ -4,6 +4,10 @@
     text-align: center; /* Asegura que el texto dentro de .container esté centrado */
 }
 
+.text-center {
+    text-align: center;
+}
+
 .table-box {
     padding: 20px;
     background-color: #f9f9f9;
@@ -11,10 +15,12 @@
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     margin-top: 30px;
-    display: flex;
-    justify-content: center; /* Centra el contenido dentro de la caja */
-    align-items: center; /* Centra el contenido verticalmente */
-    text-align: center; /* Centra el texto dentro de la caja */
+    margin-bottom: 30px; 
+    text-align: center; 
+    width: 100%;
+    max-width: 1200px; 
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 .btn-success {
@@ -27,8 +33,8 @@
     color: white;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    display: inline-block; /* Permite que el botón se ajuste al contenido */
-    text-align: center; /* Centra el texto dentro del botón */
+    display: inline-block; 
+    text-align: center; 
 }
 
 .btn-container {
@@ -43,9 +49,19 @@
 
 .table {
     width: 100%;
-    margin-top: 40px;
+    margin-top: 20px;
     border-collapse: collapse;
     text-align: center; /* Centra el texto dentro de la tabla */
+}
+
+.table thead th {
+    background-color: #000000;
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+    text-align: center; /* Asegura que los encabezados de la tabla estén centrados */
+    padding: 10px;
+    border: 1px solid #ddd;
 }
 
 .table tbody td {

@@ -7,12 +7,13 @@
     body {
         font-family: Arial, sans-serif;
         margin: 0;
-        background-image: url('{{ asset('img/nubes.jpg') }}'); 
+        background-image: url('{{ asset('img/Fondo2.jpg') }}'); 
         background-size: cover; 
     }
-</style>
 
-<link rel="stylesheet" href="{{ asset('css/ofertas.css') }}">
+    
+</style>
+<link rel="stylesheet" href="{{ asset('css/ofertasTabla.css') }}">
 
 <div class="container">
     <div class="table-box">

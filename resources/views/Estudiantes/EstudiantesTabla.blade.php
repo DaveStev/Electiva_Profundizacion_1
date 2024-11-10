@@ -1,28 +1,29 @@
 @extends('layouts.app')
 
-<link rel="stylesheet" href="{{ asset('css/Empresas_Tabla.css') }}">
+<link rel="stylesheet" href="{{ asset('css/Estudiantes_Tabla.css') }}">
 <style>
     body {
         font-family: Arial, sans-serif;
         margin: 0;
-        background-image: url('{{ asset('img/nubes.jpg') }}'); 
+        background-image: url('{{ asset('img/Fondo2.jpg') }}'); 
         background-size: cover; 
     }
 </style>
 
 @section('content')
-    <div class="container-fluid min-vh-100 d-flex flex-column align-items-center">
+    <div class="container-fluid min-vh-100 d-flex justify-content-center align-items-center">
         <div class="table-box">
-            <h2 class="table-title" style="text-align: center; font-size: 30px;">Estudiantes</h2>
-            <div class="d-flex justify-content-start mb-3" style="text-align: center; margin-bottom: 20px;">
-                <a href="{{ route('estudiante.nuevo') }}" class="btn btn-success me-2">Registrar Nuevo Estudiante</a>
+            
+            <h2 class="table-title">Estudiantes</h2>
+            <div class="d-flex justify-content-center mb-3">
+                <a href="{{ route('estudiante.nuevo') }}" class="btn btn-success">Registrar Nuevo Estudiante</a>
             </div>
 
             @if (session('success'))
                 <div class="alert alert-success">{{ session('success') }}</div>
             @endif
 
-            <table class="table table-striped" style="margin-top: 10px;">
+            <table class="table table-striped">
                 <thead>
                     <tr>
                         <th>ID</th>

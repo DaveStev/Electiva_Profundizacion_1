@@ -1,10 +1,10 @@
-@extends('layouts.app')
+
 
 <style>
     body {
         font-family: Arial, sans-serif;
         margin: 0;
-        background-image: url('{{ asset('img/nubes.jpg') }}'); 
+        background-image: url('{{ asset('img/Fondo2.jpg') }}'); 
         background-size: cover; 
     }
 </style>
@@ -54,4 +54,3 @@
             <a href="{{ url('/ofertas/tabla') }}" class="btn-cancelar">Cancelar</a>
         </form>
     </div>
-@endsection

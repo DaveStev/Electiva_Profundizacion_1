@@ -1,7 +1,17 @@
+/* Centrar el formulario en la pantalla */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Fondo opcional */
+}
 
 form {
     max-width: 600px;
-    margin-left: 20px;
+    width: 100%;
     padding: 25px;
     background-color: #fdfdfd;
     border: 1px solid #e0e0e0;
@@ -9,16 +19,12 @@ form {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-
-
 h1 {
     text-align: center;
     color: #000; 
     font-size: 1.8em;
     margin-bottom: 20px;
-    text-align: center;
 }
-
 
 label {
     display: block;
@@ -27,7 +33,6 @@ label {
     color: #333;
     font-size: 1rem;
 }
-
 
 input[type="text"],
 input[type="number"],
@@ -44,16 +49,13 @@ select {
     box-sizing: border-box;
 }
 
-
 textarea {
     height: 80px;
     resize: vertical;
 }
 
-
 button[type="submit"] {
     width: 225px;
-    margin-left: 200px;
     padding: 12px;
     background-color: #28a745; 
     color: white;
@@ -63,12 +65,13 @@ button[type="submit"] {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin: 0 auto; /* Centra el botón */
+    display: block; /* Asegura que el botón se comporte como bloque */
 }
 
 button[type="submit"]:hover {
     background-color: #218838; 
 }
-
 
 input:focus,
 textarea:focus,
@@ -77,23 +80,19 @@ select:focus {
     outline: none;
 }
 
-
 input[type="date"] {
     color: #555;
 }
-
 
 select {
     background-color: #fff;
     color: #333;
 }
 
-
 .btn-danger {
     display: inline-block;
     text-align: center;
     width: 200px;
-    margin-left: 200px;
     padding: 12px;
     background-color: #dc3545; 
     color: white;
@@ -102,6 +101,8 @@ select {
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s ease;
+    margin: 15px auto;
+    display: block; /* Centra el botón de cancelar */
 }
 
 .btn-danger:hover {

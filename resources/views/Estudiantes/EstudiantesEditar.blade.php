@@ -7,10 +7,19 @@
     <link rel="stylesheet" href="{{ asset('css/EmpresasEditar.css') }}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 </head>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background-image: url('{{ asset('img/Fondo2.jpg') }}'); 
+        background-size: cover; 
+    }
+</style>
 <body>
-    <div class="container-fluid min-vh-100 d-flex justify-content-center align-items-center" style="background-image: url('../img/nubes.jpg'); background-size: cover;">
+    <div class="container-fluid min-vh-100 d-flex justify-content-center align-items-center">
         <div class="table-box bg-white p-4 rounded shadow" style="width: 100%; max-width: 600px;">
-            <h2 class="text-center">Editar Estudiante</h2>
+            <h2 class="text-center" style="font-weight: bold;">Editar Estudiante</h2>
 
             <form action="{{ route('estudiante.actualizar', $estudiante->id) }}" method="POST">
                 @csrf

@@ -1,11 +1,9 @@
-@extends('layouts.app')
-
     <link rel="stylesheet" href="{{ asset('css/tutor_emp_editar.css') }}">
     <style>
             body {
             font-family: Arial, sans-serif;
             margin: 0;
-            background-image: url('{{ asset('img/nubes.jpg') }}'); 
+            background-image: url('{{ asset('img/Fondo2.jpg') }}'); 
             background-size: cover; 
         }
 
@@ -14,12 +12,12 @@
 
 @section('content')
 
-<header class="header">
-    <h1>Editar Tutor Empresarial</h1>
-</header>
 
 <div class="container">
     <div class="table-box">
+    <header class="header">
+    <h1 style="margin-right: 80px;">Editar Tutor Empresarial</h1>
+</header>
         <form action="{{ route('tutoresEmp.actualizar', $tutor->id) }}" method="POST">
             @csrf
             @method('PUT') 
@@ -91,4 +89,4 @@
     </div>
 </div>
 
-@endsection
+

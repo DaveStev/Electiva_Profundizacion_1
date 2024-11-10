@@ -1,54 +1,53 @@
-body {
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
-    background-color: #f8f9fa; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 
-h1 {
-    text-align: center; 
+body {
+    display: flex;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+/* Estilos del menú de navegación lateral */
+nav {
+    width: 250px;
+    background-color: #000;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px;
+    background-color: #fff;
     color: #000;
-    font-size: 1.8em; 
-    margin-bottom: 20px; 
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
 }
 
-/* Estilo de la tabla */
-.table {
-    width: 100%; 
-    margin: 20px auto; 
-    border-collapse: collapse; 
-    background-color: #ffffff; 
-    border-radius: 10px; 
+nav ul li a:hover {
+    background-color: #e0e0e0;
 }
 
-
-.table th {
-    background-color: #007bff; 
-    color: white; 
-    padding: 10px; 
-    text-align: left; 
-}
-
-
-.table td {
-    padding: 10px; 
-    border-bottom: 1px solid #ddd; 
-}
-
-
-.table tr:hover {
-    background-color: #f1f1f1; 
-}
-
-
-.btn-danger {
-    background-color: #dc3545; 
-    color: white; 
-    border: none; 
-    padding: 5px 10px; 
-    border-radius: 5px; 
-    cursor: pointer; 
-}
-
-.btn-danger:hover {
-    background-color: #c82333; 
+/* Estilos de la sección principal de contenido */
+.container {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }

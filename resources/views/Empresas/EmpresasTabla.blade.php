@@ -5,9 +5,20 @@
     body {
         font-family: Arial, sans-serif;
         margin: 0;
-        background-image: url('{{ asset('img/nubes.jpg') }}'); 
+        background-image: url('{{ asset('img/Fondo2.jpg') }}'); 
         background-size: cover; 
     }
+
+    .table thead th {
+    background-color: #000000;
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+    text-align: center; /* Asegura que los encabezados de la tabla estén centrados */
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
 </style>
 
 @section('content')

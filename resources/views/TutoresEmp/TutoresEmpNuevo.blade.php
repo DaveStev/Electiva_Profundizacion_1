@@ -1,7 +1,3 @@
-@extends('layouts.app')
-
-@section('content')
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -12,7 +8,7 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            background-image: url('../img/nubes.jpg'); 
+            background-image: url('../img/Fondo2.jpg'); 
             background-size: cover; 
         }
 
@@ -87,12 +83,10 @@
 </head>
 <body>
 
-<header class="header">
-    <h1>Agregar Tutor Empresarial</h1>
-</header>
 
 <div class="container">
     <div class="table-box">
+    <h1 style="text-align: center;">Agregar Tutor Empresarial</h1>
         <form action="{{ route('tutoresEmp.guardar') }}" method="POST">
             @csrf
             <label for="id_empresa">Empresa:</label>
@@ -129,4 +123,4 @@
 </body>
 </html>
 
-@endsection
+

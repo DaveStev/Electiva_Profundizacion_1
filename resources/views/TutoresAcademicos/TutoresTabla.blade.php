@@ -1,11 +1,11 @@
 @extends('layouts.app')
 
-<link rel="stylesheet" href="{{ asset('css/TutorAcam.css') }}">
+<link rel="stylesheet" href="{{ asset('css/TutorAcademicoTabla.css') }}">
 <style>
             body {
             font-family: Arial, sans-serif;
             margin: 0;
-            background-image: url('{{ asset('img/nubes.jpg') }}'); 
+            background-image: url('{{ asset('img/Fondo2.jpg') }}'); 
             background-size: cover; 
         }
 
@@ -24,9 +24,9 @@
 </head>
 <body>
         <div class="table-box">
-            <h2 class="table-title" style="text-align: center; font-size: 30px;">Tutores Académicos</h2>
+            <h2 class="table-title" style="text-align: center; font-size: 30px; font-weight: bold;">Tutores Académicos</h2>
             <div class="d-flex justify-content-start mb-3">
-                <a href="{{ route('tutor.nuevo') }}" class="btn btn-success me-2" style="text-align: center; margin-bottom: 20px;  margin-left: 450px; margin-top: 10px;">
+                <a href="{{ route('tutor.nuevo') }}" class="btn btn-success me-2" style="text-align: center; margin-bottom: 20px;  margin-left: 390px; margin-top: 10px;">
                      Registrar Nuevo Tutor
                 </a>
             </div>
