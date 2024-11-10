@@ -59,7 +59,7 @@
                         <td>{{ $emp->email }}</td>
                         <td>
                             <a href="{{ route('empresa.editar', $emp->id) }}" class="btn btn-warning">Editar</a>
-                            <a href="{{ route('empresas.borrar', $emp->id) }}" class="btn btn-danger">Borrar</a>
+                            <a href="{{ route('empresas.borrar', $emp->id) }}" class="btn btn-danger" onclick="return confirm('¿Estás seguro de querer borrar esta Empresa?');">Borrar</a>
                         </td>
                     </tr>
                 @endforeach

@@ -49,7 +49,7 @@
             <tbody>
                 @foreach ($tutores as $tutor)
                     <tr>
-                        <td>{{ $tutor->empresa->nombre }}</td>
+                        <td>{{ $tutor->empresa ? $tutor->empresa->nombre : 'No asignada' }}</td>
                         <td>{{ $tutor->nombres }}</td>
                         <td>{{ $tutor->apellidos }}</td>
                         <td>{{ $tutor->cargo }}</td>

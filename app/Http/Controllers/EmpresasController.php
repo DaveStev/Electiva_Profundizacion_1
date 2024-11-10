@@ -22,11 +22,12 @@ class EmpresasController extends Controller
     {
         $request->validate([
             'nombre' => 'required|string|max:255',
-            'nit' => 'required|string|max:255',
+            'nit' => 'required|string|max:255|regex:/^\d{9}-\d{1}$/',  // Ejemplo de validación para NIT con formato 111111111-1
             'direccion' => 'required|string|max:255',
             'telefono' => 'required|string|max:20',
             'email' => 'required|email|max:255',
         ]);
+        
 
         Empresas::create($request->all());
         return redirect()->route('empresa.index')->with('success', 'Empresa Creada Satisfactoriamente');

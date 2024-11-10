@@ -6,7 +6,7 @@
     <title>Registro de Empresa</title>
     <link rel="stylesheet" href="{{ asset('css/EmpresasNuevo.css') }}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <script src="{{ asset('js/Nit.js') }}" defer></script> <!-- Llamada al archivo Nit.js -->
+    <script src="{{ asset('js/Nit.js') }}" defer></script> 
 </head>
 <body>
     <div class="container-fluid min-vh-100 d-flex justify-content-center align-items-center" style="background-image: url('../img/Fondo2.jpg'); background-size: cover;">

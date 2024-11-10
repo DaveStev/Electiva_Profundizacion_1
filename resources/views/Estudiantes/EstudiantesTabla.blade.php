@@ -40,7 +40,7 @@
                             <td>{{ $est->apellidos }}</td>
                             <td>
                                 <a href="{{ route('estudiante.editar', $est->id) }}" class="btn btn-warning">Editar</a>
-                                <a href="{{ route('estudiante.borrar', $est->id) }}" class="btn btn-danger">Borrar</a>
+                                <a href="{{ route('estudiante.borrar', $est->id) }}" class="btn btn-danger" onclick="return confirm('¿Estás seguro de querer borrar este Estudiante?');">Borrar</a>
                             </td>
                         </tr>
                     @endforeach

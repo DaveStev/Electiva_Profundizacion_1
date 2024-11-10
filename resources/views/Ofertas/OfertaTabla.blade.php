@@ -59,7 +59,7 @@
                         <td>
                             <a href="{{ route('oferta.editar', $oferta->id) }}" class="btn-warning">Editar</a>
                             <br><br><br>
-                            <a href="{{ route('oferta.borrar', $oferta->id) }}" class="btn-danger">Borrar</a>
+                            <a href="{{ route('oferta.borrar', $oferta->id) }}" class="btn-danger" onclick="return confirm('¿Estás seguro de querer borrar esta Oferta?');">Borrar</a>
                             <br><br><br>
                             <a href="{{ route('postulacion.postular', $oferta->id) }}" class="btn-success">Postúleme</a>
                         </td>

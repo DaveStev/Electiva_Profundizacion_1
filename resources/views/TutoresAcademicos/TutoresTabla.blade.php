@@ -60,7 +60,7 @@
                             <td>{{ $tutor->telefono }}</td>
                             <td>
                                 <a href="{{ route('tutor.editar', $tutor->id) }}" class="btn btn-warning">Editar</a>
-                                <a href="{{ route('tutor.borrar', $tutor->id) }}" class="btn btn-danger">Borrar</a>
+                                <a href="{{ route('tutor.borrar', $tutor->id) }}" class="btn btn-danger" onclick="return confirm('¿Estás seguro de querer borrar este tutor?');">Borrar</a>
                             </td>
                         </tr>
                     @endforeach

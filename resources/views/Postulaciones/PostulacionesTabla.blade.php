@@ -39,7 +39,7 @@
                     <form action="{{ route('postulaciones.eliminar', $postulacion->id) }}" method="POST" style="display:inline;">
                         @csrf
                         @method('DELETE')
-                        <button type="submit" onclick="return confirm('¿Estás seguro de que deseas eliminar esta postulación?');" class="btn btn-danger">
+                        <button type="submit" onclick="return confirm('¿Estás seguro de que deseas eliminar esta postulación?');" class="btn btn-danger" onclick="return confirm('¿Estás seguro de querer borrar esta Postulacion?');">
                             Borrar
                         </button>
                     </form>
