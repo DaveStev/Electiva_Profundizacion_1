@@ -55,11 +55,11 @@ nav ul li a:hover {
 </style>
 <body>
     <nav>
-        <ul>
-            <li><a href="{{ route('tutoresEmp.index') }}">Tutores Empresariales</a></li>
+        <ul>            
             <li><a href="{{ route('empresa.index') }}">Empresas</a></li>
             <li><a href="{{ route('estudiante.index') }}">Estudiantes</a></li> 
-            <li><a href="{{ route('tutor.index') }}">Tutores Académicos</a></li> 
+            <li><a href="{{ route('tutor.index') }}">Tutores Académicos</a></li>
+            <li><a href="{{ route('tutoresEmp.index') }}">Tutores Empresariales</a></li>
             <li><a href="{{ route('oferta.index') }}">Ofertas</a></li> 
             <li><a href="{{ route('postulaciones.index') }}">Postulaciones</a></li> 
         </ul>
