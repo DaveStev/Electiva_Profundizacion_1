@@ -1,7 +1,7 @@
 .container {
     max-width: 1200px;
     margin: auto;
-    text-align: center; /* Asegura que el texto dentro de .container esté centrado */
+    text-align: center;
 }
 
 .text-center {
@@ -39,7 +39,7 @@
 
 .btn-container {
     display: flex;
-    justify-content: center; /* Centra los botones horizontalmente */
+    justify-content: center;
     margin-bottom: 20px;
 }
 
@@ -51,7 +51,7 @@
     width: 100%;
     margin-top: 20px;
     border-collapse: collapse;
-    text-align: center; /* Centra el texto dentro de la tabla */
+    text-align: center; 
 }
 
 .table thead th {
@@ -59,7 +59,7 @@
     color: white;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 18px;
-    text-align: center; /* Asegura que los encabezados de la tabla estén centrados */
+    text-align: center; 
     padding: 10px;
     border: 1px solid #ddd;
 }
@@ -67,7 +67,7 @@
 .table tbody td {
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 16px;
-    text-align: center; /* Asegura que el contenido de las celdas esté centrado */
+    text-align: center; 
     padding: 10px;
     border: 1px solid #ddd;
 }
@@ -80,40 +80,39 @@
     background-color: #e9ecef;
 }
 
-/* Botón Editar - Color amarillo mostaza */
 .btn-warning {
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 18px;
     padding: 10px 20px;
-    background-color: #d4a017; /* Color amarillo mostaza */
+    background-color: #d4a017; 
     border: none;
     border-radius: 5px;
     color: white;
     cursor: pointer;
     transition: background-color 0.3s ease;
     display: inline-block;
-    text-align: center; /* Centra el texto dentro del botón */
+    text-align: center; 
 }
 
 .btn-warning:hover {
-    background-color: #c69313; /* Más oscuro en hover */
+    background-color: #c69313; 
 }
 
-/* Botón Borrar - Color rojo */
+
 .btn-danger {
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 18px;
     padding: 10px 20px;
-    background-color: #dc3545; /* Color rojo */
+    background-color: #dc3545; 
     border: none;
     border-radius: 5px;
     color: white;
     cursor: pointer;
     transition: background-color 0.3s ease;
     display: inline-block;
-    text-align: center; /* Centra el texto dentro del botón */
+    text-align: center; 
 }
 
 .btn-danger:hover {
-    background-color: #c82333; /* Más oscuro en hover */
+    background-color: #c82333; 
 }

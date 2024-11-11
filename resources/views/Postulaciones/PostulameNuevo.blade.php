@@ -1,5 +1,3 @@
-
-
 @section('title', 'Postularse a Oferta')
 
 @section('content')

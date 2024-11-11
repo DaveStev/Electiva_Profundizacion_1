@@ -1,7 +1,7 @@
 .container {
     max-width: 1200px;
     margin: auto;
-    text-align: center; /* Asegura que el texto dentro de .container esté centrado */
+    text-align: center; 
 }
 
 .table-box {
@@ -12,9 +12,9 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     margin-top: 30px;
     display: flex;
-    justify-content: center; /* Centra el contenido dentro de la caja */
-    align-items: center; /* Centra el contenido verticalmente */
-    text-align: center; /* Centra el texto dentro de la caja */
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
 }
 
 .btn-success {
@@ -27,13 +27,13 @@
     color: white;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    display: inline-block; /* Permite que el botón se ajuste al contenido */
-    text-align: center; /* Centra el texto dentro del botón */
+    display: inline-block; 
+    text-align: center; 
 }
 
 .btn-container {
     display: flex;
-    justify-content: center; /* Centra los botones horizontalmente */
+    justify-content: center; 
     margin-bottom: 20px;
 }
 
@@ -45,13 +45,13 @@
     width: 100%;
     margin-top: 40px;
     border-collapse: collapse;
-    text-align: center; /* Centra el texto dentro de la tabla */
+    text-align: center; 
 }
 
 .table tbody td {
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 16px;
-    text-align: center; /* Asegura que el contenido de las celdas esté centrado */
+    text-align: center; 
     padding: 10px;
     border: 1px solid #ddd;
 }
@@ -64,40 +64,40 @@
     background-color: #e9ecef;
 }
 
-/* Botón Editar - Color amarillo mostaza */
+
 .btn-warning {
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 18px;
     padding: 10px 20px;
-    background-color: #d4a017; /* Color amarillo mostaza */
+    background-color: #d4a017; 
     border: none;
     border-radius: 5px;
     color: white;
     cursor: pointer;
     transition: background-color 0.3s ease;
     display: inline-block;
-    text-align: center; /* Centra el texto dentro del botón */
+    text-align: center; 
 }
 
 .btn-warning:hover {
-    background-color: #c69313; /* Más oscuro en hover */
+    background-color: #c69313; 
 }
 
-/* Botón Borrar - Color rojo */
+
 .btn-danger {
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 18px;
     padding: 10px 20px;
-    background-color: #dc3545; /* Color rojo */
+    background-color: #dc3545; 
     border: none;
     border-radius: 5px;
     color: white;
     cursor: pointer;
     transition: background-color 0.3s ease;
     display: inline-block;
-    text-align: center; /* Centra el texto dentro del botón */
+    text-align: center; 
 }
 
 .btn-danger:hover {
-    background-color: #c82333; /* Más oscuro en hover */
+    background-color: #c82333; 
 }

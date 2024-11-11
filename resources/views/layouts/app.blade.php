@@ -19,7 +19,7 @@ body {
     background-color: #f5f5f5;
 }
 
-/* Estilos del menú de navegación lateral */
+
 nav {
     width: 250px;
     background-color: #000;
@@ -50,7 +50,7 @@ nav ul li a:hover {
     background-color: #e0e0e0;
 }
 
-/* Estilos de la sección principal de contenido */
+
 
 </style>
 <body>

@@ -38,7 +38,7 @@ class TutoresEmpresarialesController extends Controller
     public function editar($id)
     {
         $tutor = TutorEmpresarial::findOrFail($id);
-        $empresas = Empresas::all(); // Cambiado a Empresa
+        $empresas = Empresas::all(); 
         return view('TutoresEmp.TutoresEmpEditar', compact('tutor', 'empresas'));
     }
 

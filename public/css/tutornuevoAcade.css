@@ -52,7 +52,7 @@ input[type="email"]:focus {
 
 button.btn-primary {
     padding: 15px; 
-    background-color: #28a745; /* Verde */
+    background-color: #28a745; 
     color: white; 
     border: none; 
     border-radius: 5px; 
@@ -69,7 +69,7 @@ button.btn-primary:hover {
 a.btn-secondary {
     display: inline-block; 
     padding: 15px; 
-    background-color: #dc3545; /* Rojo */
+    background-color: #dc3545;
     color: white; 
     border-radius: 5px; 
     text-align: center; 

@@ -1,4 +1,4 @@
-/* Centrar el formulario en la pantalla */
+
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -6,7 +6,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f0f0f0; /* Fondo opcional */
+    background-color: #f0f0f0; 
 }
 
 form {
@@ -65,8 +65,8 @@ button[type="submit"] {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin: 0 auto; /* Centra el botón */
-    display: block; /* Asegura que el botón se comporte como bloque */
+    margin: 0 auto; 
+    display: block;
 }
 
 button[type="submit"]:hover {
@@ -102,7 +102,7 @@ select {
     text-decoration: none;
     transition: background-color 0.3s ease;
     margin: 15px auto;
-    display: block; /* Centra el botón de cancelar */
+    display: block; 
 }
 
 .btn-danger:hover {

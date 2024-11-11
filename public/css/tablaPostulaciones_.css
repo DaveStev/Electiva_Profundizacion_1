@@ -11,7 +11,7 @@ h1 {
     background-color: #000000; 
     color: white; 
     padding: 10px; 
-    text-align: left; /* Deja los encabezados alineados a la izquierda */
+    text-align: left; 
 }
 
 .table td {

@@ -13,7 +13,7 @@
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 500px;  /* Ancho reducido */
+    max-width: 500px;  
     width: 100%;
     margin: 20px;
 }

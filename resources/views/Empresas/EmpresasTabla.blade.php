@@ -14,7 +14,7 @@
     color: white;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 18px;
-    text-align: center; /* Asegura que los encabezados de la tabla estén centrados */
+    text-align: center; 
     padding: 10px;
     border: 1px solid #ddd;
 }

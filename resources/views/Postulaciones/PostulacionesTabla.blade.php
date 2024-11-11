@@ -14,7 +14,7 @@
     }
     .table {
     max-width: 800px; 
-    margin: 50px auto; /* Centra la tabla horizontalmente */
+    margin: 50px auto; 
     padding: 25px;
     margin-top: 180px;
     margin-left: 200px;
@@ -22,7 +22,7 @@
     border: 1px solid #e0e0e0; 
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    text-align: center; /* Centra el contenido de las celdas de la tabla */
+    text-align: center; 
 }
 </style>
 
